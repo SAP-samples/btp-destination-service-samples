@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  demo-app:
+    build:
+      context: .
+      dockerfile: docker/tomcat/Dockerfile
+    volumes:
+      - ./target/dest-1.0-SNAPSHOT.war:/usr/local/tomcat/webapps/demo.war
+    ports:
+      - "8080:8080"
