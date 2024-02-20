@@ -1,3 +1,7 @@
+# Welcome to SAP BTP Neo Destinations Migration Sample
+
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-destination-service-samples)](https://api.reuse.software/info/github.com/SAP-samples/btp-destination-service-samples)
+
 ## Table of Contents
 
 * [Overview](#overview)
