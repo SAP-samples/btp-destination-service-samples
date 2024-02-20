@@ -7,16 +7,16 @@
     * [Environment](#environment)
     * [Deploy](#deploy)
 * [Installation and Usage](#installation-and-usage)
-  * [Build and Deploy](#build-and-deploy)
-  * [Postman Usage](#postman-usage)
-  * [Client-based Security](#client-based-security)
-  * [How to get an access token](#how-to-get-an-access-token)
-      * [Trust and Roles pre-requisites](#trust-and-roles-pre-requisites)
-      * [Get the access token](#get-the-access-token)
-      * [Endpoints Description](#endpoints-description)
-          * [GET /destinations (Read Destinations)](#get-destinations)
-          * [POST /destinations/migrate (Migrate Destinations)](#post-destinationsmigrate)
-          * [GET /destinations/json (Prepare config.json with NEO destination properties)](#get-destinationsjson)
+    * [Build and Deploy](#build-and-deploy)
+    * [Postman Usage](#postman-usage)
+    * [Client-based Security](#client-based-security)
+    * [How to get an access token](#how-to-get-an-access-token)
+        * [Trust and Roles pre-requisites](#trust-and-roles-pre-requisites)
+        * [Get the access token](#get-the-access-token)
+        * [Endpoints Description](#endpoints-description)
+            * [GET /destinations (Read Destinations)](#get-destinations)
+            * [POST /destinations/migrate (Migrate Destinations)](#post-destinationsmigrate)
+            * [GET /destinations/json (Prepare config.json with NEO destination properties)](#get-destinationsjson)
 * [Known Issues](#known-issues)
 * [How to obtain support](#how-to-obtain-support)
 * [Contributing](#contributing)
@@ -46,8 +46,8 @@ efficient, making it suitable for anyone looking to handle data connectivity and
 
 To build the application locally, the following prerequisites must be met:
 
-* Java 8 or higher installed
-* Maven 3.8.6 or higher installed
+* Java 8 or higher installed - [JAVA Installation Readme](/docs/JAVA-INSTALLATION.md#java-installation-guide)
+* Maven 3.8.6 or higher installed - [Maven Installation Readme](/docs/JAVA-INSTALLATION.md#maven-installation-guide)
 
 #### Environment
 
@@ -60,7 +60,8 @@ To deploy the application to the Neo environment, the following prerequisites mu
 
 To deploy the application to the Neo environment, the following prerequisites must be met:
 
-* NEO Console Client (Neo CLI) with SDK Version 4.47.11 or higher installed
+* NEO Console Client (Neo CLI) with SDK Version 4.47.11 or higher
+  installed - [SAP Installation Guide](https://help.sap.com/docs/btp/sap-btp-neo-environment/install-sap-btp-sdk-for-neo-environment)
 
 ## Installation and Usage
 
